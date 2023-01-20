@@ -38,6 +38,7 @@ dependencies:
 
   http: ^0.13.5
   intl: ^0.18.0
+  modal_bottom_sheet: ^2.1.2
 
 dev_dependencies:
   flutter_test:
