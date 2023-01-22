@@ -1,7 +1,9 @@
+import 'package:cuki_app/pages/home.dart';
 import 'package:cuki_app/pages/welcome.dart';
 import 'package:flutter/material.dart';
 
 import '../models/constants.dart';
+
 
 class GetStarted extends StatelessWidget {
   const GetStarted({Key? key}) : super(key: key);
@@ -20,11 +22,11 @@ class GetStarted extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Image.asset('assets/get-started2.png'),
+              Image.asset('assets/get-started.png'),
               const SizedBox(height: 30,),
               GestureDetector(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> const Welcome()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> const Home()));
                 },
                 child: Container(
                   height: 50,

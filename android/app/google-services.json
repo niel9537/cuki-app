@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787554708489",
+    "project_id": "cuki-app",
+    "storage_bucket": "cuki-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787554708489:android:f13c4732e7876584e6dcd8",
+        "android_client_info": {
+          "package_name": "com.cuki.cuki_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787554708489-75379cmfor6h5n235vb5itna83ftsg88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2xuvWrS6E82VAR6V0Pkme5DS-f32mmvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787554708489-75379cmfor6h5n235vb5itna83ftsg88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
